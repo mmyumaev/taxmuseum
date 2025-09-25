@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Сравнение налоговых ставок – TaxMuseum</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <nav class="navbar">
+    <div class="logo">TaxMuseum</div>
+    <ul>
+      <li><a href="index.html">Главная</a></li>
+      <li><a href="history.html">История</a></li>
+      <li><a href="rates.html">Сравнение</a></li>
+      <li><a href="resources.html">Источники</a></li>
+    </ul>
+  </nav>
+  <div class="container">
+    <h1>Ставки корпоративного налога</h1>
+    <p>
+      Размеры корпоративного налога различаются по всему миру. На графике ниже представлены ставки в ряде стран. Эти данные основаны на
+      отчётах международных организаций и аналитических центров – например, в 2024 г. средняя ставка корпоративного налога в мире составляла
+      около 23,5 %【374002079875339†L193-L248】.
+    </p>
+    <div class="chart-container">
+      <canvas id="ratesChart" width="800" height="400"></canvas>
+    </div>
+    <h2>Таблица ставок и официальные ресурсы</h2>
+    <p>В таблице представлены примеры корпоративных ставок и ссылки на официальные сайты налоговых органов соответствующих стран:</p>
+    <table>
+      <thead>
+        <tr>
+          <th>Страна</th>
+          <th>Ставка, %</th>
+          <th>Официальный налоговый орган</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Объединённые Арабские Эмираты</td>
+          <td>9</td>
+          <td><a href="https://tax.gov.ae" target="_blank">Federal Tax Authority</a></td>
+        </tr>
+        <tr>
+          <td>Россия</td>
+          <td>20</td>
+          <td><a href="https://www.nalog.gov.ru" target="_blank">Федеральная налоговая служба</a></td>
+        </tr>
+        <tr>
+          <td>США</td>
+          <td>21</td>
+          <td><a href="https://www.irs.gov" target="_blank">Internal Revenue Service (IRS)</a></td>
+        </tr>
+        <tr>
+          <td>Великобритания</td>
+          <td>25</td>
+          <td><a href="https://www.gov.uk/government/organisations/hm-revenue-customs" target="_blank">HM Revenue & Customs</a></td>
+        </tr>
+        <tr>
+          <td>Канада</td>
+          <td>15</td>
+          <td><a href="https://www.canada.ca/en/revenue-agency.html" target="_blank">Canada Revenue Agency</a></td>
+        </tr>
+        <tr>
+          <td>Индия</td>
+          <td>30</td>
+          <td><a href="https://www.incometaxindia.gov.in" target="_blank">Income Tax Department</a></td>
+        </tr>
+        <tr>
+          <td>Германия</td>
+          <td>30</td>
+          <td><a href="https://www.bundesfinanzministerium.de" target="_blank">Министерство финансов Германии</a></td>
+        </tr>
+        <tr>
+          <td>Сьерра-Леоне</td>
+          <td>30</td>
+          <td><a href="https://www.nra.gov.sl" target="_blank">National Revenue Authority</a></td>
+        </tr>
+        <tr>
+          <td>Пуэрто‑Рико</td>
+          <td>37,5</td>
+          <td><a href="https://hacienda.pr.gov" target="_blank">Departamento de Hacienda</a></td>
+        </tr>
+        <tr>
+          <td>Замбия</td>
+          <td>35</td>
+          <td><a href="https://www.zra.org.zm" target="_blank">Zambia Revenue Authority</a></td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  <footer>
+    <p>&copy; 2025 Виртуальный налоговый музей. Все права защищены.</p>
+  </footer>
+</body>
+</html>
